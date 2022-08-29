@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 // a description of creating a standalone component is indside of details.component.html
 
 import { AppComponent } from './app.component';
-import { SharedModule } from './shared/shared.module';
 import { DetailsComponent } from './welcome/details/details.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
@@ -16,7 +15,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
   ],
   imports: [
     BrowserModule, 
-    SharedModule,
+    // SharedModule,
     DetailsComponent
   ],
   providers: [],

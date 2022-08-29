@@ -1,6 +1,8 @@
 import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
+  // now that we added standalone: true - we can get rid of Shared.directive
+  standalone: true,
   selector: '[appHighlight]',
 })
 export class HighlightDirective {
