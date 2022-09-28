@@ -8,7 +8,4 @@ export class AnalyticsService {
   registerClick() {
     console.log('Clicked!');
   };
-
-  
-
 };

@@ -7,8 +7,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 @Component({
   standalone: true,
   imports: [
-    WelcomeComponent,
-
+    WelcomeComponent
   ],
   selector: 'app-root',
   templateUrl: './app.component.html',

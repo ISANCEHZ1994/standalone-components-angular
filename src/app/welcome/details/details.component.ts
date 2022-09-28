@@ -25,6 +25,8 @@ import { HighlightDirective } from 'src/app/shared/highlight.directive';
   //   AnalyticsService
   // ]
   // check out file: main.ts
+  // now coming back that is ANOTHER way of providing services however
+  // the BEST method would still be in the analytics.service.ts file: {providedIn: 'root'}
 })
 export class DetailsComponent {
   constructor(private analyticsService: AnalyticsService) {};

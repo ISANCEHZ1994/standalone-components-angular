@@ -17,10 +17,10 @@ if (environment.production) {
 //   .catch(err => console.error(err));
 
 // bootstrap with a COMPONENT:
-bootstrapApplication( AppComponent, { 
+bootstrapApplication( AppComponent )
+  // { 
   // since we are not using modules anymore..we can add this second object which will allow some configuration
   // we are globally providing AnalyticsService here
-    providers: [ AnalyticsService ]
-
-} );
+//     providers: [ AnalyticsService ]
+// } );
 // which means now that we can remove app.module.ts
